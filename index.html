@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="fr"> <!---->
+
+<head> <!--Début de l'en-tête de page-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Taha Adam</title>
+
+  <!-- Logo Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- Lien vers la feuille de style CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Police importée depuis Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body> <!--Début du corps de page-->
+
+  <!-- 
+    CONTENU PRINCIPAL
+  -->
+  <main>
+
+    <!--
+       Barre de côté 
+      -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box"> <!--Insertion de ma photo-->
+          <img src="./assets/images/image-taha.png" alt="Taha Adam" width="80"> <!--MON IMAGE-->
+        </figure>
+
+        <div class="info-content"> <!--Informations sur moi-->
+          <h1 class="name" title="Taha Adam">Taha Adam</h1> 
+          <p class="title">Administrateur Systèmes et Réseaux</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn> <!--Bouton pour afficher les contacts-->
+          <span>Afficher les contacts</span> 
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box"> 
+              <ion-icon name="mail-outline"></ion-icon> <!--Icône de Message-->
+            </div>
+
+            <div class="contact-info"> <!--Adresse mail-->
+              <p class="contact-title">Email</p> 
+              <a href="mailto:tahaadam.pro@gmail.com" class="contact-link">tahaadam.pro@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item"> 
+
+            <div class="icon-box"> 
+              <ion-icon name="calendar-outline"></ion-icon> <!--Image de calendrier-->
+            </div>
+
+            <div class="contact-info"> <!--Date de naissance-->
+              <p class="contact-title">Âge</p>
+              <time datetime="16/12/2005">18 ans</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item"> 
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon> <!--Icône de Localisation-->
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Adresse</p>
+              <address>Villeneuve-la-Garenne, France</address>
+            </div>
+            
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list"> 
+          <li class="social-item"> <!--Réseaux sociaux--> 
+            <a href="https://www.linkedin.com/in/adam-taha-admin/" target="_blank" class="social-link"> <!--Redirection vers LinkedIn-->
+              <ion-icon name="logo-linkedin"></ion-icon> <!--Icône de LinkedIn-->
+            </a>
+          </li>
+
+          <li class="social-item"> 
+            <a href="https://github.com/takagii-cloud" target="_blank" class="social-link"> <!--Redirection vers GitHub-->
+              <ion-icon name="logo-github"></ion-icon> <!--Icône de GitHub-->
+            </a>
+          </li>
+
+          <li class="social-item"> <!--Rédirection vers mon CV-->
+            <a href="./assets/images/CV_Taha_Adam_Admin_Sys_Reseau.pdf" target="_blank" class="social-link"> <!--Redirection vers GitHub-->
+              <ion-icon name="archive-outline"></ion-icon> <!--Icône de CV-->
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!-- main-content -->
+    <div class="main-content">
+
+      <!--
+        NAVBAR  
+      -->
+      <nav class="navbar"> 
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link="about">À propos de moi</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="resume">Parcours</button> <!--Bouton pour afficher le parcours-->
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="portfolio">Projets</button> <!--Bouton pour afficher les projets-->
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="blog">Compétences</button> <!--Bouton pour afficher les compétences-->
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="contact">Contact</button> <!--Bouton pour afficher les contacts-->
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!-- 
+        À PROPOS DE MOI 
+      -->
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">À propos<br> de moi</h2> <!--Titre-->
+        </header>
+
+        <section class="about-text">
+          <p>
+            Étudiant en première année à l'IUT de Villetaneuse en
+            BUT Réseaux et Télécommunications.
+            J'aspire à entrer en spécialité Cybersécurité en deuxième année en Alternance.
+            Je souhaite continuer mes études en école d'ingénieur.
+          </p>
+          <p>
+            Je suis joueur d'échec en Club, Pongiste en Club, et fan d'alpinisme. Je suis à la recherche
+            d'une alternance dans le domaine de l'administration Systèmes et Réseaux.
+          </p>
+        </section>
+
+        <!-- 
+          COMPÉTENCES 
+        -->
+        <section class="service">
+
+          <h3 class="h3 service-title">Compétences</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Administration Réseaux</h4>
+                <p class="service-item-text">Conception, installation et administration des services réseaux
+                  informatique d'une entreprise.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Créer des Outils, pour les R&T</h4>
+                <p class="service-item-text">
+                  Développement d'outils informatiques à usage interne d'une équipe.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Connecter Entreprises - Usagers</h4>
+                <p class="service-item-text">
+                  Mise en service et administration des équipements d'accès fixe.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Rédaction</h4>
+                <p class="service-item-text">
+                  Rédaction de Rapports précis et détaillés, des différents services réseaux.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- 
+          OUTILS 
+        -->
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Outils</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo_html.png" alt="Langage HTML" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Langage HTML</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Bonne maîtrise du langage HTML. Création d'un site d'aide au devoir statique pour mon lycée.
+                    Création de plusieurs portfolios en première année de BUT R&T.
+                  </p>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="testimonials-item">
+
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo_css.png" alt="Langage CSS" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Langage CSS</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Décoration de page HTML, telles que le site d'aide, et les portfolios.
+                  </p>
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="testimonials-item">
+
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo_php.png" alt="Langage PHP" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Langage PHP</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Création d'une solution informatique en première année de BUT R&T. Création d'une site
+                    d'administration Réseau pour un prestataire (fictif).
+                  </p>
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="testimonials-item">
+
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo_sql.png" alt="Langage SQL" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Langage SQL</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Gestion de la base de données d'un formulaire PHP. Gestion de la base de donnés du site
+                    d'administration Réseau pour un prestataire (fictif).
+                  </p>
+                </div>
+
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- 
+          OUTILS CLIQUABLES
+        -->
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2021-06-14">Langage de Programmation</time>
+
+              <div data-modal-text>
+                <p>Data</p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+      <!-- 
+        Parcours 
+      -->
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Parcours</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Éducation</h3>
+
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <a href="https://iutv.univ-paris13.fr/but-reseaux-telecommunications/" target="_blank" style="text-decoration: none;">
+                <h4 class="h4 timeline-item-title">Université Sorbonne Paris Nord</h4>
+              </a>
+
+              <span>2023 - 2026</span>
+
+              <p class="timeline-text">
+                Bachelor Universitaire de Technologie Réseaux et Télécommunications, spécialité Cybersécurité en Alternance.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <a href="https://www.lyceecassin-leraincy.fr/" target="_blank" style="text-decoration: none;">
+                <h4 class="h4 timeline-item-title">Lycée René Cassin</h4>
+              </a>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Baccalauréat STI2D, Sciences et technologies de l'Industrie et du Développement Durable,
+                spécialités Ingénierie, Développement Durable & Systèmes d'information et numérique.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Expérience</h3>
+
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Administrateur/Technicien Systèmes et Réseaux</h4>
+
+              <span>Septembre 2024 — Présent</span>
+
+              <p class="timeline-text">
+                Administrateur/Technicien Systèmes et Réseaux en Alternance, chez XXX.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Stagiaire Libraire</h4>
+
+              <span>2019 - 2019</span>
+
+              <p class="timeline-text">
+                Stagiaire Libraire chez la librairie Les Deux Georges. Mise sous pli des livres,
+                gestion des stocks, notifications clients, accueil clients, conseils clients,
+                rédaction de coups de coeur.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!--
+          Section dédiée aux compétences
+        -->
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Langues</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Français</h5>
+                <data value="100">Lu, écrit, parlé (Langue Maternelle)</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Anglais</h5>
+                <data value="90">[C1] Lu, écrit, parlé (Anglais Technique)</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Espagnol</h5>
+                <data value="70">[B2] Lu, écrit, parlé</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- 
+        Section dédiée aux Projets
+      -->
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Projets</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn data-category="all">Tous</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn data-category="web-design">Réseaux</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn data-category="applications">Télécommunications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn data-category="web-development">Programmation</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Sélectionner une catégorie</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item data-category="all">Tous</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-category="web-design">Réseaux</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-category="applications">Télécommunications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-category="web-development">Développement Web</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="web-development">
+
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Creer_une_solution_informatique.png" alt="finance" loading="lazy"> <!--IMAGE SAE 23-->
+
+                </figure>
+
+                <h3 class="project-title">Mettre en place une solution informatique</h3> <!--SAE 23: Mettre en place une solution informatique-->
+
+                <p class="project-category">SAE 23 - IUT  </p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web-development">
+
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Traiter_des_données.png" alt="orizon" loading="lazy"> <!--IMAGE SAE 15-->
+
+                </figure>
+
+                <h3 class="project-title">Traiter des données</h3> <!--SAE 15: Traiter des données-->
+
+                <p class="project-category">SAE 15 - IUT</p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web-design">
+
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Construire_un_reseau_informatique.png" alt="fundo" loading="lazy"> <!--IMAGE SAE 21-->
+
+                </figure>
+
+                <h3 class="project-title">Créer un réseau informatique</h3> <!--SAE 21: Construire un réseau informatique.-->
+
+                <p class="project-category">SAE 21 - IUT</p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Mesurer_et_caracteriser_un_signal.png" alt="brawlhalla" loading="lazy"> <!--IMAGE SAE 22-->
+
+                </figure>
+
+                <h3 class="project-title">Mesurer et Caractériser un signal</h3> <!--SAE 22: Mesurer et Caractériser un signal.-->
+
+                <p class="project-category">SAE 22 - IUT </p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web-design">
+
+              <a href="#">
+
+                <figure class="project-img">
+                  
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Initiation_au_reseaux_informatiques.png" alt="dsm." loading="lazy"> <!--IMAGE SAE 12-->
+
+                </figure>
+
+                <h3 class="project-title">Initiation aux réseaux informatiques</h3> <!--SAE 12: S'initier au réseaux informatiques-->
+
+                <p class="project-category">SAE 12 - IUT </p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web-design">
+
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Projet_integratif.png" alt="metaspark" loading="lazy"> <!--IMAGE SAE 24-->
+
+                </figure>
+
+                <h3 class="project-title">Projet intégratif</h3>
+
+                <p class="project-category">SAE 24 - IUT</p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web-development">
+
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Portfolio.png" alt="summary" loading="lazy"> <!--IMAGE SAE 14-->
+
+                </figure>
+
+                <h3 class="project-title">Se présenter sur Internet</h3>
+
+                <p class="project-category">SAE 14 - IUT</p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Procedure_de_fabrication.png" alt="task manager" loading="lazy"> <!--IMAGE SAE 13-->
+
+                </figure>
+
+                <h3 class="project-title">Découvrir un dispositif de transmission</h3>
+
+                <p class="project-category">SAE 13 - IUT</p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web-development">
+
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/SITE_AIDE.png" alt="arrival" loading="lazy"> <!--IMAGE SITE D'AIDE ETL.V-->
+
+                </figure>
+
+                <h3 class="project-title">Site d'aide aux devoirs</h3>
+
+                <p class="project-category">ETL.V - Lycée</p>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </section>
+        
+      </article>
+
+      <!-- Section dédiée aux COMPÉTENCES 
+      -->
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Mes <br>Compétences</h2>
+        </header>
+
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Administrer_les_reseaux.jpg" alt="Design conferences in 2022" loading="lazy"> <!--Image Administrer les réseaux et l'Internet-->
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">IUT</p> <!--Lieu d'apprentissage-->
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">2023 - 2026</time> <!--Date de la compétence-->
+                  </div>
+                  <h3 class="h3 blog-item-title">Administrer les réseaux et l'Internet</h3> <!--Titre: Administrer les réseaux et l'Internet-->
+                  <p class="blog-text">
+                    Conception et administration de l'infrastructure réseau informatique d'une entreprise.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Connecter_les_entreprises1.png" alt="Best fonts every designer" loading="lazy"> <!--Image Connecter les entreprises et les usagers-->
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">IUT</p> <!--Lieu d'apprentissage-->
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">2023 - 2026</time> <!--Date de la compétence-->
+                  </div>
+                  <h3 class="h3 blog-item-title">Connecter les entreprises et les usagers</h3>
+                  <p class="blog-text">
+                    Mise en service et administration des équipements d'accès fixe ou mobile d'un opérateur de télécommunications.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Creer_des_outils.jpg" alt="Design digest #80" loading="lazy"> <!--Image Créer des outils pour les R&T-->
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">IUT</p> <!--Lieu d'apprentissage-->
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">2023 - 2026</time> <!--Date de la compétence-->
+                  </div>
+                  <h3 class="h3 blog-item-title">Créer des outils et des applications informatiques pour les R&T</h3>
+                  <p class="blog-text">
+                    Automatisation du déploiement de la maintenance du système d'information d'une entreprise.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Redaction_de_rapports.jpg" alt="UI interactions of the week" loading="lazy"> <!--Image rédaction de rapports-->
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">IUT</p> <!--Lieu d'apprentissage-->
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">2023 - 2026</time> <!--Date de la compétence-->
+                  </div>
+                  <h3 class="h3 blog-item-title">Rédaction de Rapports</h3>
+                  <p class="blog-text">
+                    Rédaction de Rapports détaillés, visant à expliquer les différents services réseaux mis au sein
+                    d'un réseau informatique. 
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Formulaire de Contact</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nom & Prénom" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Adresse Mail" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Votre message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Envoyer</span>
+            </button>
+          </form>
+        </section>
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- custom js link -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <!-- Modal pour les détails du projet -->
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <img id="modalImage" src="" alt="" width="300">
+    <p id="modalDescription"></p>
+    <a id="modalDownload" href="" download style="color: white">Télécharger le fichier</a>
+  </div>
+</div>
+
+<!-- Modal pour les détails des compétences -->
+<div id="skillModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalSkillTitle"></h2>
+    <img id="modalSkillImage" src="" alt="" width="300">
+    <ul id="modalSkillList"></ul>
+  </div>
+</div>
+</body>
+</html>
+
+</body>
+
+</html>
