@@ -132,23 +132,23 @@ document.addEventListener('DOMContentLoaded', (event) => {
       title: "Mettre en place une solution informatique",
       description: "Mise en place d'une solution informatique, pour un prestataire fictif. Adressage réseau, configuration des VLANs pour des clients.",
       image: "./assets/images/Creer_une_solution_informatique.png",
-      download: "./assets/files/solution_informatique.pdf",
+      download: "./assets/rapports/sae_23_mettre_en_place_une_solution_information_mibouchdken_ataha.pdf",
       downloadText: "Cliquer sur lien pour consulter un compte rendu du projet."
     },
     {
       id: 2,
       title: "Traiter des données",
       description: "Conception d'un programme Python qui traite de manière automatique une large quantité de données. Exploitation des données sous forme de graphiques, et calculs de nouvelles données.",
-      image: "./assets/images/Traiter_des_données.png",
-      download: "./assets/files/traiter_donnees.pdf",
-      downloadText: "Cliquez sur le lien pour être redirigé vers le site de traitement de données"
+      image: "./assets/images/sae_15_traiter_des_donnees_image.png",
+      //download: "./assets/files/traiter_donnees.pdf",
+      // downloadText: "Cliquez sur le lien pour être redirigé vers le site de traitement de données"
     },
     {
       id: 3,
       title: "Créer un réseau informatique",
       description: "Conception d'un réseau informatique, composé de machines physiques, de switches, et de routeurs. Mise en place d'un routage statique, dynamique avec RIPv2 et OSPFv1. Attribution dynamique d'adresses IP avec DHCP. Translation d'adresses avec NAT/PAT.",
-      image: "./assets/images/Construire_un_reseau_informatique.png",
-      download: "./assets/rapports/SAE_21_Rapport.pdf",
+      image: "./assets/images/construire_un_reseau_informatique.png",
+      download: "./assets/rapports/sae_21_mettre_en_place_un_reseau_informatique_ataha_mibouchdken_khadbi.pdf",
       downloadText: "Cliquez sur le lien pour voir un compte rendu détaillé du projet"
     },
     {
@@ -156,48 +156,41 @@ document.addEventListener('DOMContentLoaded', (event) => {
       title: "Mesurer et Caractériser un signal",
       description: "Mesure et caractérisation d'un signal électrique. Utilisation d'un oscilloscope pour mesurer la tension et la fréquence d'un signal électrique. Observation du phénomène de modulation de fréquence, et de modulation radio",
       image: "./assets/images/Mesurer_et_caracteriser_un_signal.png",
-      download: "./assets/rapports/SAE_22_P1_Rapport.pdf",
+      download: "./assets/rapports/sae_22_mesurer_et_caracteriser_un_signal_ataha_wbelarbi.pdf",
       downloadText: "Cliquez sur le lien pour voir un compte rendu détaillé du projet"
     },
     {
       id: 5,
       title: "Initiation aux réseaux informatiques",
       description: "Création et virtualisation d'un réseau Informatique sur marionnet. Mise des services réseaux, DNS, DHCP, IPTABLES.",
-      image: "./assets/images/Initiation_au_reseaux_informatiques.png",
-      download: "./assets/files/reseau_informatique.pdf",
-      downloadText: "Cliquez sur le lien pour voir le réseau mis en place"
+      image: "./assets/images/initiation_au_reseaux_informatiques.png",
+      //download: "./assets/rapports/reseau_informatique.pdf",
+      //downloadText: "Cliquez sur le lien pour voir le réseau mis en place"
     },
     {
       id: 6,
       title: "Projet intégratif",
       description: "Attaque ManInTheMiddle, empoisonnement ARP, sniffing de paquets, analyse de trames, détection d'attaques, sécurisation du réseau, avec un switch Cisco.",
       image: "./assets/images/Projet_integratif.png",
-      download: "./assets/files/reseau_informatique.pdf",
+      download: "./assets/rapports/sae_24_projet_integratif_mibouchdken_ataha.pdf",
       downloadText: "Cliquez sur le lien pour voir les scripts crées et un compte rendu détaillé"
     },
-    {
-      id: 7,
-      title: "Se présenter sur Internet",
-      description: "Création, d'un portfolio servant à se créer une identité numérique. Utilisation de HTML, CSS, et JavaScript pour la création du site.",
-      image: "./assets/images/Portfolio.png",
-      download: "./assets/files/reseau_informatique.pdf",
-      downloadText: "C'est le projet actuel."
-    },
+    
     {
       id: 8,
       title: "Découvrir un support de transmission",
       description: "Découverte des différents supports de transmission. Transmission par: câbles coaxiaux, fibre optique, support hertzien. Création d'un câble RJ45 droit.",
       image: "./assets/images/Procedure_de_fabrication.png",
-      download: "./assets/files/reseau_informatique.pdf",
+      download: "./assets/rapports/sae_13_decouvrir_un_dispositif_de_transmission_ataha_azougagh.pdf",
       downloadText: "Cliquez ici, pour voir un compte rendu sur la création d'un câble RJ45."
     },
     {
       id: 9,
       title: "Création d'un site d'aide aux devoirs",
-      description: "Création d'un site d'aide aux devoirs (statique), pour mon lycée. Utilisation de HTML, CSS pour la création du site.",
-      image: "./assets/images/SITE_AIDE.png",
-      download: "./assets/files/reseau_informatique.pdf",
-      downloadText: "Cliquez ici, pour voir le rendu du site."
+      description: "Création d'un site d'aide aux devoirs (statique), pour mon lycée. Utilisation d'HTML et CSS pour la création du site.",
+      image: "./assets/images/site_d_aide_aux_devoirs_image.png",
+      //download: "./assets/files/reseau_informatique.pdf",
+      //downloadText: "Cliquez ici, pour voir le rendu du site."
     },
   ];
 
@@ -243,21 +236,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
       title: "Administrer les Réseaux et l'Internet",
       image: "./assets/images/Administrer_les_reseaux.jpg",
       details: [
-        "[R101] Iniation aux réseaux informatiques",
-        "[R102] Principes et architectures des réseaux.",
-        "[R103] Réseaux locaux",
-        "[R106] Architecture des systèmes numériques et informatiques",
-        "[SAE 12] S'initier aux réseaux informatiques",
-        "[R201] Technologie de l'Internet",
-        "[R202] Administration systèmes et fondamentaux de la virtualisation",
-        "[R203] Bases des services réseaux",
-        "[R206] Numérisation de l'information",
-        "[R207] Sources de données",
-        "[R210] Anglais Technique",
-        "[SAE 12] S'initier aux réseaux informatiques",
-        "[SAE 14] Portfolio",
-        "[SAE 21] Construire un réseau informatique",
-        "[SAE 24] Projet Intégratif"
+        "Conception et déploiement d'architectures réseau:\
+        \n Mise en place d'infrastructures adaptées aux besoins des entreprise (réseaux locaux, VLANs, routage etc).\
+        \n \n Configuration des équipements:\
+        \n Paramétrage des routeurs et switchs avec des protocoles comme OSPF, BGP, STP, VLANs, DHCP? DNS et NAT.\
+        \n \n Adminisration des services réseaux:\
+        \n Gestion des serveurs sous Windows Server et Linux, configuration des services Active Directory, DNS, DHCP, VPN\
+        et gestion des accès utilisateurs.\
+        \n \n Automatisation et scripting:\
+        \n Utilisation de Python et Bash pour automatiser l'administration des infrastructures."
       ]
     },
 
@@ -267,21 +254,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
     {
       id: 2,
       title: "Connecter les entreprises et les usagers",
-      image: "./assets/images/Connecter_les_entreprises1.png",
+      image: "./assets/images/connecter_les_entreprises_et_les_usagers.png",
       details: [
-        "[R101] Initiation aux réseaux informatiques",
-        "[R103] Réseaux Locaux",
-        "[R104] Fondamentaux des systèmes éléctroniques",
-        "[R105] Support de transmission",
-        "[R201] Technologie de l'Internet",
-        "[R204] Initiations à la téléphonie d'entreprise",
-        "[R205] Signaux et Systèmes de transmission",
-        "[R206] Numérisation de l'information",
-        "[R210] Anglais Technique",
-        "[SAE 13] Découvrir un support de transmission",
-        "[SAE 14] Portfolio",
-        "[SAE 22] Mesurer et caractériser un signal",
-        "[SAE 24] Projet Intégratif"
+        "Mise en service des équipements d'accès réseau:\
+        \n Installation et configuration des routeurs, switchs et équipements de téléphonie VoIP.\
+        \n \n Configuration des protocoles de communication:\
+        \n Mise en place de services DHCP, MPLS et optimisation des performances réseau.\
+        \n \n Intégration des réseaux d'opérateurs;\
+        \n Interconnexion avec des infrastructures FFTH et gestion des liens fibre."
       ]
     },
 
@@ -293,21 +273,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
       title: "Créer des outils et des applications informatiques pour les R&T",
       image: "./assets/images/Creer_des_outils.jpg",
       details: [
-        "[R101] Initiation aux réseaux informatiques",
-        "[R103] Réseaux Locaux",
-        "[R106] Architecture of Computer Systems",
-        "[R107] Fondamentaux de la programmation",
-        "[R108] Base des systèmes d'exploitation",
-        "[R109] Introduction aux Technologies Web",
-        "[R201] Technologie de l'Internet",
-        "[R202] Administration systèmes et fondamentaux de la virtualisation",
-        "[R204] Initiations à la téléphonie d'entreprise",
-        "[R207] Sources de données",
-        "[R209] Initiation développement Web",
-        "[R210] Anglais Technique",
-        "[SAE 14] Portfolio",
-        "[SAE 15] Traiter des données",
-        "[SAE 24] Projet Intégratif",
+        "Développement d'outils d'administration réseau:\
+        \n Création de scripts et d'applications pour automatiser les tâches courantes (gestion des équipements...).\
+        \n \n Automatisation des tâches d'administration:\
+        \n Utilisation de Python et Bash pour la gestion des configurations et le monitoring.\
+        \n \n Gestion et exploitation des bases de données:\
+        Conception de bases SQL (PostgreSQL) pour stocker des informations réseau."
       ]
     },
 
@@ -316,15 +287,29 @@ document.addEventListener('DOMContentLoaded', (event) => {
     */
     {
       id: 4,
-      title: "Rédaction de Rapports Techniques",
-      image: "./assets/images/Redaction_de_rapports.jpg",
+      title: "Administrer un système d'information sécurisé",
+      image: "./assets/images/administrer_un_systeme_d_information_securise.png",
       details: [
-        "[R111] Expression, Culture et Communication Professionnelle",
-        "[R112] Projet Personnel et Professionnel",
-        "[R115] Gestion de Projet",
+        "Gestion des identités et des accès:\
+        \n Mise en place d'authentification forte (LDAP, Active Directory).\
+        \n \n Sécurisation des services et des protocoles\
+        \n Configuration de pare-feu (pfSense, OPNsense), VPN (OpenVPN), IDS/IPS (Snort).\
+        \n \n Protection des données:\
+        \n Chiffrement (RSA, TLS), gestion des certificats SSL/TLS."
+      ]
+    },
+    {
+      id: 5,
+      title: "Surveiller un système d'information sécurisé",
+      image: "./assets/images/surveiller_un_systeme_d_information_securise.png",
+      details: [
+        "Détection des menaces et analyse de logs:\
+        \n Identification des comportements suspects via IDS/IPS (Snort).\
+        \n \n Surveillance réseau et audit de sécurité:\
+        \n Utilisation de Wireshark, nmap, Metasploitable et Nessus pour tester\
+        la résiliance des systèmes."
       ]
     }
-
   ];
 
   const skillItems = document.querySelectorAll('.blog-post-item a');
