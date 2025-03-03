@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     {
       id: 1,
       title: "Administrer les Réseaux et l'Internet",
-      image: "./assets/images/Administrer_les_reseaux.jpg",
+      image: "./assets/images/administrer_les_reseaux.jpg",
       details: [
         "Conception et déploiement d'architectures réseau:\
         \n Mise en place d'infrastructures adaptées aux besoins des entreprise (réseaux locaux, VLANs, routage etc).\
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     {
       id: 3,
       title: "Créer des outils et des applications informatiques pour les R&T",
-      image: "./assets/images/Creer_des_outils.jpg",
+      image: "./assets/images/creer_des_outils.jpg",
       details: [
         "Développement d'outils d'administration réseau:\
         \n Création de scripts et d'applications pour automatiser les tâches courantes (gestion des équipements...).\
