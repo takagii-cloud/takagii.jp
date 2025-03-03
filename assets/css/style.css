@@ -336,11 +336,11 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 .avatar-box img {
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 .info-content .name {
